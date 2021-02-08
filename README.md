@@ -31,3 +31,12 @@ Quadratic probing:
                 we trying slots 1,2,4,8… units far away.
 Rehashing: 
               we hash the result again in order to find an empty slot.
+
+
+
+
+      | Average	|Worst case
+Space |	O(n)	|O(n)
+Search|	O(1)	|O(n)
+Insert|	O(1)	|O(n)
+Delete|	O(1)	|O(n)
